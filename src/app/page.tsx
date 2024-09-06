@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="md:h-full md:w-full">
       <Image
-        src="/images/golden_middle_20x30.jpg"
+        src="/images/Together_70x70.jpg"
         alt="Artist's Work"
         width="800"
         height="800"
