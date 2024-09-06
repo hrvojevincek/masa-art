@@ -28,6 +28,8 @@ const Page = () => {
                 src={`/images/${filename}`}
                 width={400}
                 height={300}
+                loading="lazy"
+                quality={100}
                 alt={`${filename} ${index + 1}`}
                 className="w-full h-96 object-contain "
                 style={{ aspectRatio: "400/300", objectFit: "contain" }}
